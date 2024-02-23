@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Buttons</title>
+  <style>
+
+
+    .dropdown-container {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-button {
+      background-color: #fff;
+      color: black;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown-content a {
+      color: #333;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dropdown-container">
+  <div class="dropdown">
+    <button class="dropdown-button">Grocery</button>
+    <!-- Add these lines inside the Grocery dropdown content -->
+    <div class="dropdown-content">
+      <a href="#">Milk</a>
+      <a href="#">Bread</a>
+      <a href="#">Eggs</a>
+      <a href="#">Fruits</a>
+      <a href="#">Vegetables</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Mobiles</button>
+    <div class="dropdown-content">
+      <a href="#">iPhone</a>
+      <a href="#">Samsung Galaxy</a>
+      <a href="#">Google Pixel</a>
+      <a href="#">OnePlus</a>
+      <a href="#">Xiaomi</a>
+    </div>
+
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Fashion</button>
+    <div class="dropdown-content">
+      <a href="#">puff sleeves</a>
+      <a href="#">Bucket Hats</a>
+      <a href="#">Retro Futurism</a>
+      <a href="#">Mismatched Prints</a>
+      <a href="#">classic Blue</a>
+      <a href="#">Athleisure</a>
+      <a href="#">Sustainable Fashion</a>
+      <a href="#">Neutrals and Beiges </a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Electronics</button>
+    <div class="dropdown-content">
+      <a href="#">Dell XPS 13</a>
+      <a href="#">HP Spectre x360</a>
+      <a href="#">Acer Swift 3</a>
+      <a href="#">LG Gram</a>
+      <a href="#">Microsoft Surface Laptop 4</a>
+      <a href="#">Samsung QLED Q80T</a>
+      <a href="#">Vizio P-Series</a>
+      <a href="#">philips</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Furniture</button>
+    <div class="dropdown-content">
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <a href="#">Item 3</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Appliances</button>
+    <div class="dropdown-content">
+      <a href="#">Radiant Glow Foundation</a>
+      <a href="#">Enchanting Eyes Eyeshadow Palettes</a>
+      <a href="#">Velvet Touch Lipstick</a>
+      <a href="#">Luminous Lustre Highlighter</a>
+      <a href="#">Flawless Finish Setting Powder</a>
+      <a href="#">Silk Smooth Lip Glos</a>
+      <a href="#">Opulent Orchid Blush</a><a href="">  Infinite Impact Mascara</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropdown-button">Cosmetics</button>
+    <div class="dropdown-content">
+      <a href="#">Item 1</a>
+      <a href="#">Item 2</a>
+      <a href="#">Item 3</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
